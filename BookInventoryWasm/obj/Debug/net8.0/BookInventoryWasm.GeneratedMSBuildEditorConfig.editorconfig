@@ -22,6 +22,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWasm
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Components/Pages/BookAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rQWRkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Components/Pages/BookDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rRGV0YWlsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
