@@ -1,0 +1,30 @@
+@inject HttpClient Http
+
+<h1>Books</h1>
+@if (Books is null)
+{
+    <h3>Loading...</h3>
+}
+else
+{
+    @for (int x = 0; x <= Books.Count / 4; x++)
+    {
+        BookRecord[] bookGroup = Books.Skip(x * 4).Take(4).ToArray();
+        <div class="row">
+            @foreach (BookRecord book in bookGroup)
+            {
+                <BookItem Book="@book" />
+            }
+        </div>
+    }
+}
+
+@code {
+    List<BookRecord>? Books = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(2000);
+        Books = await Http.GetFromJsonAsync<List<BookRecord>>("/Books");
+    }
+}

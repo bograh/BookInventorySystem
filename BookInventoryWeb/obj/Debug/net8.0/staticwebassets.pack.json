@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ProgrammingProjects\\Dotnet\\Blazor\\BookInventorySystem\\BookInventoryWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BookInventoryWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BookInventoryWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\ProgrammingProjects\\Dotnet\\Blazor\\BookInventorySystem\\BookInventoryWeb\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\ProgrammingProjects\\Dotnet\\Blazor\\BookInventorySystem\\BookInventoryWeb\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ProgrammingProjects\\Dotnet\\Blazor\\BookInventorySystem\\BookInventoryWeb\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ProgrammingProjects\\Dotnet\\Blazor\\BookInventorySystem\\BookInventoryWeb\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookInventoryWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BookInventoryWeb.props",
+      "PackagePath": "build\\BookInventoryWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BookInventoryWeb.props",
+      "PackagePath": "buildMultiTargeting\\BookInventoryWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BookInventoryWeb.props",
+      "PackagePath": "buildTransitive\\BookInventoryWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

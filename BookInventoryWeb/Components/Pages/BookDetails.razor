@@ -1,0 +1,9 @@
+@page "/BookDetails/{id:int}"
+
+<Detail @rendermode="RenderMode.InteractiveWebAssembly" , Id="@Id" />
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+}
