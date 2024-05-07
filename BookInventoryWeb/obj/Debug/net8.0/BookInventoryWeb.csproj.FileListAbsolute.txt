@@ -56,3 +56,4 @@ D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWeb\obj\De
 D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWeb\obj\Debug\net8.0\BookInventoryWeb.pdb
 D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWeb\obj\Debug\net8.0\BookInventoryWeb.genruntimeconfig.cache
 D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWeb\obj\Debug\net8.0\ref\BookInventoryWeb.dll
+D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWeb\obj\Debug\net8.0\BookInventoryWeb.sourcelink.json

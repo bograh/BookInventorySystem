@@ -29,12 +29,12 @@ app.UseHttpsRedirection();
 app.UseCors(MyAllowSpecificOrigin);
 
 var Books = new List<BookRecord> {
-    new BookRecord(1, "The Johnsons", "Mike Johnson", "9780068120084", "Biography"),
-    new BookRecord(2, "To Kill a Mockingbird", "Harper Lee", "9780061120084", "Fiction"),
-    new BookRecord(3, "1984", "George Orwell", "9780451524935", "Dystopian"),
-    new BookRecord(4, "The Great Gatsby", "F. Scott Fitzgerald", "9780743273565", "Classics"),
-    new BookRecord(5, "Harry Potter and the Sorcerer's Stone", "J.K. Rowling", "9780590353427", "Fantasy"),
-    new BookRecord(6, "The Hobbit", "J.R.R. Tolkien", "9780547928227", "Fantasy"),
+    new BookRecord(1, "The Johnsons", "Mike Johnson", "9780068120084", "Biography", "/images/books/TheJohnsons.jpg"),
+    new BookRecord(2, "To Kill a Mockingbird", "Harper Lee", "9780061120084", "Fiction", "/images/books/ToKillAMockingbird.jpg"),
+    new BookRecord(3, "1984", "George Orwell", "9780451524935", "Dystopian", "/images/books/1984.jpg"),
+    new BookRecord(4, "The Great Gatsby", "F. Scott Fitzgerald", "9780743273565", "Classics", "/images/books/TheGreatGatsby.jpg"),
+    new BookRecord(5, "Harry Potter and the Sorcerer's Stone", "J.K. Rowling", "9780590353427", "Fantasy", "/images/books/HarryPotter.jpg"),
+    new BookRecord(6, "The Hobbit", "J.R.R. Tolkien", "9780547928227", "Fantasy", "/images/books/TheHobbit.jpg"),
 };
 
 // Get all books
@@ -55,4 +55,4 @@ app.MapGet("/books/{id}", (int id) =>
 
 app.Run();
 
-record BookRecord(int Id, string Title, string Author, string ISBN, string Genre);
+record BookRecord(int Id, string Title, string Author, string ISBN, string Genre, string ImageUrl);

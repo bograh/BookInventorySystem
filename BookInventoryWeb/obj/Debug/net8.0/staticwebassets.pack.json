@@ -21,6 +21,30 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "D:\\ProgrammingProjects\\Dotnet\\Blazor\\BookInventorySystem\\BookInventoryWeb\\wwwroot\\images\\books\\1984.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\1984.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingProjects\\Dotnet\\Blazor\\BookInventorySystem\\BookInventoryWeb\\wwwroot\\images\\books\\HarryPotter.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\HarryPotter.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingProjects\\Dotnet\\Blazor\\BookInventorySystem\\BookInventoryWeb\\wwwroot\\images\\books\\TheGreatGatsby.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\TheGreatGatsby.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingProjects\\Dotnet\\Blazor\\BookInventorySystem\\BookInventoryWeb\\wwwroot\\images\\books\\TheHobbit.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\TheHobbit.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingProjects\\Dotnet\\Blazor\\BookInventorySystem\\BookInventoryWeb\\wwwroot\\images\\books\\TheJohnsons.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\TheJohnsons.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingProjects\\Dotnet\\Blazor\\BookInventorySystem\\BookInventoryWeb\\wwwroot\\images\\books\\ToKillAMockingbird.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\ToKillAMockingbird.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookInventoryWeb.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

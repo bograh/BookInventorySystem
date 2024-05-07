@@ -1,6 +1,6 @@
 @inject HttpClient Http
 
-<h3>Book Details for @BookItem?.Title</h3>
+<h3>Book Details for "@BookItem?.Title"</h3>
 
 @if (BookItem == null)
 {
@@ -10,7 +10,7 @@ else
 {
     <div class="row">
         <div class="col-6">
-            @* <img style="width: 100%;" src="@BookItem?.ImageUrl" alt="@BookItem?.Title" /> *@
+            <img style="width: 100%;" src="@BookItem?.ImageUrl" alt="@BookItem?.Title" />
         </div>
         <div class="col-6">
             @BookItem?.Author
@@ -26,6 +26,6 @@ else
     protected override async Task OnInitializedAsync()
     {
         await Task.Delay(1000);
-        BookItem = await Http.GetFromJsonAsync<BookRecord>($"/Books/{Id}");
+        BookItem = await Http.GetFromJsonAsync<BookRecord>($"/books/{Id}");
     }
 }

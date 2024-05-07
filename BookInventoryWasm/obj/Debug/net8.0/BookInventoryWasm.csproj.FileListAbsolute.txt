@@ -1029,3 +1029,4 @@ D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWasm\obj\D
 D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWasm\obj\Debug\net8.0\refint\BookInventoryWasm.dll
 D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWasm\obj\Debug\net8.0\BookInventoryWasm.pdb
 D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWasm\obj\Debug\net8.0\ref\BookInventoryWasm.dll
+D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWasm\obj\Debug\net8.0\BookInventoryWasm.sourcelink.json

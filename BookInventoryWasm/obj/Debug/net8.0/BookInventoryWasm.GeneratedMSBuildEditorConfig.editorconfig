@@ -22,16 +22,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWasm
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Components/Pages/BookDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rRGV0YWlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Components/Pages/BookItem.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rSXRlbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Components/Pages/BookItems.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rSXRlbXMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Components/Pages/Detail.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXRhaWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Pages/Counter.razor]

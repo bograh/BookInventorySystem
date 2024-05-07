@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BookInventoryWasm",
   "resources": {
-    "hash": "sha256-Lrqwg5k6T+Cw7nXuIESX1Hj/Xpx89ugeQBj7TKaHLj4=",
+    "hash": "sha256-UNatk9ykHZNv2I2LaX8FLyaeGEh9sGtFtrVDWhsSZY8=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.avmaitmu8q.js": "sha256-ju0+XWE0ihz554eKEj0HQ8Opa61xpbUIaX5/MNo8we4="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-VCfYgt1mcjITabSTosCDVZ+68ea3Z7kakTFaLNLG+18=",
       "netstandard.wasm": "sha256-YOZxxR9PM3Dltcijfb0Q4FD39DkWZbZ1e2ScbZDvWJ4=",
       "System.Private.CoreLib.wasm": "sha256-NrT1QkAzVU//2wgK9vXdq77lCGvLJ4IOZ+Aegesyanc=",
-      "BookInventoryWasm.wasm": "sha256-lf6ygl7KGE+bIsUVFgyRXueA1dLai73LbnDfsCnn0iY="
+      "BookInventoryWasm.wasm": "sha256-YYflX9L7m/eg5i1OzbcHJSPIV9AxF/sbBfCUB4LMs/0="
     },
     "pdb": {
-      "BookInventoryWasm.pdb": "sha256-4n4OS24w51BD0cBHp7KbQ5Ou5NDEpSDI9IvbAo6by40="
+      "BookInventoryWasm.pdb": "sha256-dYatZv5zo348hjnn3ll4Ay4g2ZJt0rZ1wijSPOO8FTk="
     }
   },
   "cacheBootResources": true,
