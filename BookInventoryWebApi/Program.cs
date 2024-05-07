@@ -53,6 +53,19 @@ app.MapGet("/books/{id}", (int id) =>
 .WithName("GetBookById")
 .WithOpenApi();
 
+app.MapPost("/books", (HttpContext context, BookRecord book) =>
+{
+    int newId = Books.Count > 0 ? Books.Max(b => b.Id) + 1 : 1;
+
+    book = book with { Id = newId };
+    Books.Add(book);
+
+    return Results.Ok(Books);
+})
+.WithName("AddBooks")
+.WithOpenApi();
+
+
 app.Run();
 
 record BookRecord(int Id, string Title, string Author, string ISBN, string Genre, string ImageUrl);
