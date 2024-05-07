@@ -1,5 +1,7 @@
 @inject HttpClient Http
 
+<PageTitle>@BookItem?.Title</PageTitle>
+
 <h3>Book Details for "@BookItem?.Title"</h3>
 
 @if (BookItem == null)
@@ -13,7 +15,11 @@ else
             <img style="width: 100%;" src="@BookItem?.ImageUrl" alt="@BookItem?.Title" />
         </div>
         <div class="col-6">
-            @BookItem?.Author
+            <h3>
+                <b>Author:</b> @BookItem?.Author
+                <b>Genre:</b> @BookItem?.Genre
+                <b>ISBN:</b> @BookItem?.ISBN
+            </h3>
         </div>
     </div>
 }
