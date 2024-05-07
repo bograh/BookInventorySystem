@@ -6,7 +6,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var MyAllowSpecificOrigin = "_mySpecificOrigin";
-builder.Services.
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(MyAllowSpecificOrigin, policy =>
+    {
+        policy.WithOrigins("http://localhost:5227")
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -18,6 +26,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors(MyAllowSpecificOrigin);
 
 var Books = new List<BookRecord> {
     new BookRecord(1, "The Johnsons", "Mike Johnson", "9780068120084", "Biography"),
@@ -28,6 +37,7 @@ var Books = new List<BookRecord> {
     new BookRecord(6, "The Hobbit", "J.R.R. Tolkien", "9780547928227", "Fantasy"),
 };
 
+// Get all books
 app.MapGet("/books", () =>
 {
     return Books;
@@ -35,6 +45,14 @@ app.MapGet("/books", () =>
 .WithName("GetBooks")
 .WithOpenApi();
 
+// Get one book
+app.MapGet("/books/{id}", (int id) =>
+{
+    return Books.SingleOrDefault(b => b.Id == id);
+})
+.WithName("GetBookById")
+.WithOpenApi();
+
 app.Run();
 
-record Book
+record BookRecord(int Id, string Title, string Author, string ISBN, string Genre);
