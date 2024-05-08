@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rRGV0YWlsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Components/Pages/BookEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Components/Pages/BookItem.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rSXRlbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,16 +42,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rSXRlbXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Components/Pages/BooksList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rc0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ProgrammingProjects/Dotnet/Blazor/BookInventorySystem/BookInventoryWasm/_Imports.razor]

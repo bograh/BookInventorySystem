@@ -1,0 +1,48 @@
+@inject HttpClient Http
+
+<PageTitle>Books List</PageTitle>
+
+<h1>Books List</h1>
+
+@if (Books == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th>Genre</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Books)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.ISBN</td>
+                    <td>@book.Genre</td>
+                    <td>@book.Qty</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    List<BookRecord>? Books = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(2000);
+        Books = await Http.GetFromJsonAsync<List<BookRecord>>("/books");
+    }
+
+}

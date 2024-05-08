@@ -32,3 +32,5 @@ D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWebApi\obj
 D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWebApi\obj\Debug\net8.0\BookInventoryWebApi.genruntimeconfig.cache
 D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWebApi\obj\Debug\net8.0\ref\BookInventoryWebApi.dll
 D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWebApi\obj\Debug\net8.0\BookInventoryWebApi.sourcelink.json
+D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWebApi\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\ProgrammingProjects\Dotnet\Blazor\BookInventorySystem\BookInventoryWebApi\bin\Debug\net8.0\Newtonsoft.Json.dll

@@ -1,6 +1,8 @@
 @inject HttpClient Http
 @inject NavigationManager NavigationManager
 
+<PageTitle>Add New Book</PageTitle>
+
 <h1>Add Book</h1>
 
 <EditForm Model="@newBook" OnValidSubmit="@HandleSubmit">
@@ -8,30 +10,34 @@
     <div class="form-group">
         <label for="title">Title:</label>
         <InputText id="title" @bind-Value="newBook.Title" />
-    </div>
+    </div><br>
     <div class="form-group">
         <label for="author">Author:</label>
         <InputText id="author" @bind-Value="newBook.Author" />
-    </div>
+    </div><br>
     <div class="form-group">
         <label for="isbn">ISBN:</label>
         <InputText id="isbn" @bind-Value="newBook.ISBN" />
-    </div>
+    </div><br>
     <div class="form-group">
         <label for="genre">Genre:</label>
         <InputText id="genre" @bind-Value="newBook.Genre" />
-    </div>
+    </div><br>
     <div class="form-group">
         <label for="imageUrl">Image:</label>
         <InputText id="imageUrl" @bind-Value="newBook.ImageUrl" />
-    </div>
+    </div><br>
+    <div class="form-group">
+        <label for="qty">Quantity:</label>
+        <InputNumber id="qty" @bind-Value="newBook.Qty" />
+    </div><br>
 
     <button type="submit">Add Book</button>
 </EditForm>
 
 
 @code {
-    private BookModel newBook = new BookModel(0, "", "", "", "", ""); // Initialize here
+    private BookModel newBook = new BookModel(0, "", "", "", "", "", 0); // Initialize here
 
     private async Task HandleSubmit()
     {
@@ -41,7 +47,7 @@
         {
             // Success! Show confirmation message
             // You can show a toast notification or navigate to another page
-            NavigationManager.NavigateTo("/books");
+            NavigationManager.NavigateTo("/");
         }
         else
         {

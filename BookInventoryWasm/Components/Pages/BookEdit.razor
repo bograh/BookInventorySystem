@@ -1,0 +1,84 @@
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<PageTitle>@updatedBook?.Title - Edit</PageTitle>
+
+<h1>Edit Book</h1>
+
+@if (updatedBook != null)
+{
+    <EditForm Model="@updatedBook" OnValidSubmit="@HandleSubmit">
+
+        <div class="form-group">
+            <label for="title">Title:</label>
+            <InputText id="title" @bind-Value="updatedBook.Title" />
+        </div><br>
+        <div class="form-group">
+            <label for="author">Author:</label>
+            <InputText id="author" @bind-Value="updatedBook.Author" />
+        </div><br>
+        <div class="form-group">
+            <label for="isbn">ISBN:</label>
+            <InputText id="isbn" @bind-Value="updatedBook.ISBN" />
+        </div><br>
+        <div class="form-group">
+            <label for="genre">Genre:</label>
+            <InputText id="genre" @bind-Value="updatedBook.Genre" />
+        </div><br>
+        <div class="form-group">
+            <label for="imageUrl">Image:</label>
+            <InputText id="imageUrl" @bind-Value="updatedBook.ImageUrl" />
+        </div><br>
+        <div class="form-group">
+            <label for="qty">Quantity:</label>
+            <InputNumber id="qty" @bind-Value="updatedBook.Qty" />
+        </div><br>
+
+        <button type="submit">Update Book</button>
+    </EditForm>
+}
+else
+{
+    <p>Loading...</p>
+}
+
+@code {
+    private BookModel? updatedBook;
+
+    [Parameter]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadBookDetails();
+    }
+
+    private async Task LoadBookDetails()
+    {
+        try
+        {
+            updatedBook = await Http.GetFromJsonAsync<BookModel>($"/books/{Id}");
+        }
+        catch
+        {
+            // Handle error
+        }
+    }
+
+    private async Task HandleSubmit()
+    {
+        if (updatedBook != null)
+        {
+            var response = await Http.PutAsJsonAsync<BookModel>($"/books/{Id}", updatedBook);
+
+            if (response.IsSuccessStatusCode)
+            {
+                NavigationManager.NavigateTo($"/BookDetails/{Id}");
+            }
+            else
+            {
+                // Error! Show error message
+            }
+        }
+    }
+}
